@@ -19,7 +19,7 @@ body {
   display: grid;
   place-items: center;
   max-width: 450px;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   text-align: center;
   background-color: hsl(0, 0%, 12%);
   border-radius: 0.6rem;
