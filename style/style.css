@@ -24,6 +24,12 @@ body {
   background-color: hsl(0, 0%, 12%);
   border-radius: 0.6rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0 , 0.2);
+  animation: zoomIn 2s;
+}
+
+@keyframes zoomIn{
+  0%{transform: translateY(-100%)}
+  100%{transform: translateY(0%)}
 }
 
 .card img {
